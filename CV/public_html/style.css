@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+   height: 100vh; 
+}
+.container1 {
+  display: flex;
+  justify-content: space-between; /* This will push the divs to opposite sides */
+  }
+
+
+
+.left-div {
+    
+   color: #161936;
+  width: 30%; /* Adjust width as needed */
+  background-color: #9FB1CF; /* Just for visual purposes */
+  padding-left: 10px;
+  border-radius: 15px;
+   margin-left: 5px;
+}
+
+.name-div {
+    color: #231A36;
+    font-family: "Roboto Slab", serif;
+  width: 100%; /* Adjust width as needed */
+  background-color: #5C68A8; /* Just for visual purposes */
+}
+
+.right-div {
+    color: #161936;
+  width: 60%; /* Adjust width as needed */
+  background-color: #F0F1F4; /* Just for visual purposes */
+  margin-right: 35px;
+  padding: 20px;
+  border-radius: 15px;
+  
+}
+
+body {
+  font-family:"Roboto Slab", serif;
+   background-color:#D4DCE5;
+ 
+}
+
